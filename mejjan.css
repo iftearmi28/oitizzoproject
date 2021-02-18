@@ -76,7 +76,6 @@ svg text{
     font-family: 'Sofia';
     font-style: italic;
     stroke-width: 1;
-    -webkit-stroke-width: 1;
    animation: animation-text 3s infinite alternate;
   
 }
@@ -84,14 +83,12 @@ svg text{
     0%{
         stroke-dasharray: 0 50%;
         stroke-dashoffset: 20%;
-        -webkit-stroke-dasharray: 0 50%;
-        -webkit-stroke-dashoffset: 20%;
+        
     }
     100%{
         stroke-dasharray: 50% 0;
         stroke-dashoffset: -20%;
-        -webkit-stroke-dasharray: 50% 0;
-        -webkit-stroke-dashoffset: -20%;
+        
     }
 }
 /*textload end*/
