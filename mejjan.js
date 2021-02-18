@@ -154,7 +154,7 @@ for (i = 0; i < journeyBtn.length; i++) {
 
 
 function showGreeting() {
-    setTimeout(greetingOpen, 5500);
+    setTimeout(greetingOpen, 6500);
     setTimeout(afterLoad, 3000);
 }
 function greetingOpen() {
